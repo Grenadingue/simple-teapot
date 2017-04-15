@@ -1,0 +1,24 @@
+{
+  "name": "simple-teapot",
+  "version": "1.0.0",
+  "description": "An http server believing it's a teapot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grenadingue/simple-teapot.git"
+  },
+  "keywords": [
+    "http",
+    "teapot"
+  ],
+  "author": "Grenadingue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Grenadingue/simple-teapot/issues"
+  },
+  "homepage": "https://github.com/Grenadingue/simple-teapot#readme"
+}
