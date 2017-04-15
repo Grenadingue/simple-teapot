@@ -11,7 +11,9 @@ An http server believing it's a teapot
 - `npm install`
 
 ## Configure
-- if needed update the `serverPort` value in `server.js` (default `8080`)
+In `server.js`:
+- if needed update the `hostName` value (default `localhost`)
+- if needed update the `hostPort` value (default `8080`)
 
 ## Run
 - `npm run start`
