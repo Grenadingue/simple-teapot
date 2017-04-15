@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Grenadingue/simple-teapot/issues"
   },
-  "homepage": "https://github.com/Grenadingue/simple-teapot#readme"
+  "homepage": "https://github.com/Grenadingue/simple-teapot#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
