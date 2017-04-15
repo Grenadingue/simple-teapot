@@ -3,7 +3,8 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-const serverPort = 8080;
+const hostPort = 8080;
+const hostName = 'localhost';
 
 app.use((req, res, next) => {
     const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
@@ -17,4 +18,4 @@ app.get('/', (req, res) => {
 
 app.use('/teapot.png', express.static(path.join(__dirname, 'teapot.png')));
 
-app.listen(serverPort);
+app.listen(hostPort, hostName);
