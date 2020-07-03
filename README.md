@@ -13,7 +13,7 @@ An http server believing it's a teapot
 ## Configure
 In `server.js`:
 - if needed update the `hostName` value (default `localhost`)
-- if needed update the `hostPort` value (default `8080`)
+- if needed update the `hostPort` value (default `4180`)
 
 ## Run
 - `npm run start`
