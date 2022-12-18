@@ -23,6 +23,6 @@
   "homepage": "https://github.com/Grenadingue/simple-teapot#readme",
   "type": "module",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.2"
   }
 }
