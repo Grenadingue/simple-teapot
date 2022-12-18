@@ -12,7 +12,7 @@ An http server believing it's a teapot
 
 ## Configure
 In `server.js`:
-- if needed update the `hostName` value (default `localhost`)
+- if needed update the `hostName` value (default `0.0.0.0`)
 - if needed update the `hostPort` value (default `4180`)
 
 ## Run
