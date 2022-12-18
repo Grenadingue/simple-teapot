@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
 
 const hostPort = 4180;
-const hostName = 'localhost';
+const hostName = '0.0.0.0';
 
 app.use((req, res, next) => {
     const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
